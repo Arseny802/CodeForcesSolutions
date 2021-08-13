@@ -1,5 +1,6 @@
 .idea**
 cmake-build**
+conan-build**
 
 # Prerequisites
 *.d
