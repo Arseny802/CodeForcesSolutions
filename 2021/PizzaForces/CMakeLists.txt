@@ -1,9 +1,11 @@
 
 # Library with code and executable for sending
 add_library(PizzaForcesForTest SHARED
+		Pizza.cc
 		PizzaForces.cc
 		)
 add_executable(PizzaForces
+		Pizza.cc
 		PizzaForces.cc
 		PizzaForcesRunner.cc
 		)

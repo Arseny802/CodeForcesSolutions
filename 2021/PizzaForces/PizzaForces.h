@@ -1,6 +1,6 @@
 #pragma once
-
 #include <array>
+#include "Pizza.h"
 
 namespace PizzaForces {
 class PizzaForcesSolution {
@@ -8,15 +8,6 @@ class PizzaForcesSolution {
   static long long Calculate(long long numberOfFriends);
 
  private:
-  struct Pizza {
-	int size;
-	int minutes;
-	Pizza(int size, int minutes)
-		: size(size), minutes(minutes) {
-
-	}
-  };
-
   static constexpr int kPizzasAmount = 3;
   static const std::array<Pizza, kPizzasAmount> kPizzas;
 };

@@ -1,7 +1,7 @@
 #include "PizzaForces.h"
 
 namespace PizzaForces {
-const std::array<PizzaForcesSolution::Pizza, PizzaForcesSolution::kPizzasAmount> PizzaForcesSolution::kPizzas{
+const std::array<Pizza, PizzaForcesSolution::kPizzasAmount> PizzaForcesSolution::kPizzas{
 	Pizza(6, 15),
 	Pizza(8, 20),
 	Pizza(10, 25),
