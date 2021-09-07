@@ -12,4 +12,5 @@ include_directories(../include ${GTEST_INCLUDE_DIRS})
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 
 add_subdirectory(2021/PizzaForces)
+add_subdirectory(2021/UpTheStripSimplified)
 add_subdirectory(2021/WhoIsOpposite)
